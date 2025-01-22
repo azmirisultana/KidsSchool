@@ -48,6 +48,12 @@
     font-size: 15px;
 }
 
+.nav-button:hover {
+    background-color: darkorange;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 #nav-home {
     color: orange;
 }
@@ -135,13 +141,20 @@
 }
 
 
+.banner-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
 /* curriculum */
 
 .curriculum {
     background-image: url(assets/bg.png);
     margin: 20px 30px;
     padding: 20px 40px;
-
 }
 
 .curriculum-heading {
@@ -161,13 +174,18 @@
     gap: 28px;
 }
 
+.curriculum-container ul {
+    padding: 0;
+    margin: 0;
+}
+
 .curriculum-container li {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
 }
 
 .kinder {
@@ -192,7 +210,6 @@
     height: 380.78px;
     align-items: center;
     justify-content: center;
-
 
     box-sizing: border-box;
     border: 0.94px solid rgb(255, 244, 220);
@@ -239,6 +256,17 @@
     padding-right: 30px;
 }
 
+
+.kinder-button:hover,
+.elementary-button:hover,
+.middle-button:hover {
+    color: white;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 .round-button {
     display: flex;
     flex-direction: row;
@@ -261,6 +289,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.round:hover {
+    background-color: darkorange;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* stories */
@@ -302,6 +336,14 @@
     align-items: center;
     flex: 1;
     margin: auto;
+}
+
+.stories-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .story-1 {
@@ -463,6 +505,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.story-1 button:hover {
+    background-color: white;
+    color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.story-2 button:hover {
+    background-color: white;
+    color: #F0AA00;
+    border: 1px solid #F0AA00;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.story-3 button:hover {
+    background-color: white;
+    color: #5D58F0;
+    border: 1px solid #5D58F0;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.story-4 button:hover {
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.story-5 button:hover {
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* footer */
