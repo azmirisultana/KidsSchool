@@ -95,3 +95,171 @@
     color: black;
     font-weight: bold;
 }
+
+/* banner */
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px 100px;
+}
+
+.banner-text {
+    gap: 24px;
+}
+
+.banner-heading {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+#empower {
+    color: orange;
+}
+
+#vision {
+    color: skyblue;
+}
+
+.banner-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* curriculum */
+
+.curriculum {
+    background-image: url(assets/bg.png);
+    margin: 20px 30px;
+    padding: 20px 40px;
+
+}
+
+.curriculum-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.curriculum-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.curriculum-container li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kinder {
+    display: flex;
+    flex-direction: column;
+    width: 367.8px;
+    height: 380.78px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.elementary {
+    display: flex;
+    flex-direction: column;
+    width: 367.8px;
+    height: 380.78px;
+    align-items: center;
+    justify-content: center;
+
+
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 367.8px;
+    height: 380.78px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.kinder-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #01ACFD;
+    font-weight: bold;
+}
+
+.elementary-button {
+    color: #F0AA00;
+    font-weight: bold;
+}
+
+.middle-button {
+    display: block;
+    text-align: center;
+    color: #8700FF;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.round-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.round {
+    width: 40px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
