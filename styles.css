@@ -501,3 +501,213 @@
     list-style-type: none;
 }
 
+/* small device -media query */
+
+@media screen and (max-width:576px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar p,
+    .nav-menu,
+    .nav-button {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar {
+        border: 1px solid orange;
+        margin: 0px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .banner-img {
+        order: -1;
+    }
+
+    .banner-text {
+        margin-top: 20px;
+    }
+
+    .banner-button {
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    .curriculum-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .round-button {
+        display: none;
+    }
+
+    .curriculum {
+        text-align: center;
+    }
+
+    .story-1 {
+        display: none;
+    }
+
+    .stories-container {
+        width: 100%;
+    }
+
+    .stories-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        box-sizing: border-box;
+        background-image: url(assets/bg.png), linear-gradient(to top, rgb(250, 216, 156) 30%, white);
+    }
+
+    .right-stories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 15px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .right-stories>div {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .right-stories img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .right-stories h2,
+    .right-stories p {
+        padding: 10px;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .right-stories {
+        margin-bottom: 20px;
+    }
+
+    .story-2 {
+        position: relative;
+    }
+
+    .story-2 button {
+        position: absolute;
+        top: 43%;
+        bottom: 65%;
+    }
+
+    .story-3 {
+        position: relative;
+    }
+
+    .story-3 button {
+        position: absolute;
+        top: 43%;
+        bottom: 65%;
+    }
+
+    .story-4 {
+        position: relative;
+    }
+
+    .story-4 button {
+        position: absolute;
+        top: 43%;
+        bottom: 65%;
+    }
+
+    .story-5 {
+        position: relative;
+    }
+
+    .story-5 button {
+        position: absolute;
+        top: 43%;
+        bottom: 65%;
+    }
+
+    .all-story {
+        width: 100%;
+        padding: 0 15px 50px 15px;
+        box-sizing: border-box;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+
+    .footer-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-logo {
+        display: flex;
+        height: 140px;
+        align-items: stretch;
+    }
+
+    .footer-heading {
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+
+    }
+
+    .footer-p {
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .footer-head,
+    .menu,
+    .socials-container {
+        text-align: left;
+    }
+}
