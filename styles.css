@@ -16,7 +16,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
-
 }
 
 .nav-logo {
@@ -515,13 +514,20 @@
         display: none;
     }
 
+
+
     .hamburger {
         display: flex;
     }
 
     .navbar {
-        border: 1px solid orange;
+        border: 0.8px solid rgb(254, 163, 1);
         margin: 0px;
+        padding: 10px 10px;
+    }
+
+    .marq {
+        margin-top: 20px;
     }
 
     .banner-container {
