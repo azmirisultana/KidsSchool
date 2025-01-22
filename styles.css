@@ -621,7 +621,7 @@
 
     .story-2 button {
         position: absolute;
-        top: 43%;
+        top: 35%;
         bottom: 65%;
     }
 
@@ -631,7 +631,7 @@
 
     .story-3 button {
         position: absolute;
-        top: 43%;
+        top: 35%;
         bottom: 65%;
     }
 
@@ -641,7 +641,7 @@
 
     .story-4 button {
         position: absolute;
-        top: 43%;
+        top: 35%;
         bottom: 65%;
     }
 
@@ -651,7 +651,7 @@
 
     .story-5 button {
         position: absolute;
-        top: 43%;
+        top: 35%;
         bottom: 65%;
     }
 
@@ -682,7 +682,6 @@
         font-size: 40px;
         font-weight: bold;
         text-align: left;
-
     }
 
     .footer-p {
